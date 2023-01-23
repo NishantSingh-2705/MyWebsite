@@ -1,0 +1,158 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    text-decoration: none;
+    color: red;
+}
+
+.nav-item {
+    padding-right: 30px;
+    font-size: medium;
+    text-transform: uppercase;
+}
+
+.nav-link {
+    color: black;
+    font-weight: 600;
+}
+
+.nav-link:hover {
+    color: red;
+}
+
+.Download {
+    height: 45px;
+    width: 220px;
+    outline: none;
+    border: none;
+    background: red;
+    color: white;
+    border-radius: 60px;
+    font-weight: bold;
+    font-size: large;
+}
+
+.Download:hover {
+    background: rgb(244, 110, 86);
+    transition: 0.5s;
+}
+
+.Heading {
+    font-size: 3rem;
+    font-weight: 900;
+    color: rgb(43, 43, 112);
+}
+
+.p-head {
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.btn1 {
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background: red;
+    color: white;
+    font-weight: bold;
+    border-radius: 60px;
+    margin: auto;
+}
+
+.btn1 a {
+    color: white;
+}
+
+.btn2 a {
+    color: rgb(54, 149, 204);
+}
+
+.btn1:hover {
+    background: rgb(244, 110, 86);
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.btn2 {
+    height: 45px;
+    width: 35%;
+    border: 2px solid rgb(54, 149, 204);
+    outline: none;
+    color: rgb(54, 149, 204);
+    border-radius: 60px;
+    font-weight: bold;
+    margin: auto;
+    background: transparent;
+}
+
+.btn2:hover {
+    color: rgb(4, 4, 70);
+    transition: 0.5s;
+    border: 2px solid black;
+}
+
+.span {
+    font-size: larger;
+    font-weight: 500;
+    color: grey;
+}
+
+.para {
+    font-size: 1.1rem;
+    color: rgb(75, 61, 61);
+}
+
+.course {
+    background-color: rgb(225, 240, 246);
+}
+
+.card1 {
+    background: rgb(209, 236, 234);
+    box-shadow: -1px 0px 19px -6px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -1px 0px 19px -6px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 0px 19px -6px rgba(0, 0, 0, 0.75);
+}
+
+.card:hover {
+    box-shadow: -1px 0px 19px -6px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -1px 0px 19px -6px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 0px 19px -6px rgba(0, 0, 0, 0.75);
+    transition: 0.5s;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-instagram {
+    background: #d2338b;
+    color: white;
+}
+
+.fa-github {
+    background: #000000;
+    color: white;
+}
+
+.fa-google-plus {
+    background: #dd9250;
+    color: white;
+}
+
+footer {
+    background: rgb(225, 240, 246);
+}
